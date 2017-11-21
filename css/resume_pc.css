@@ -105,7 +105,7 @@ a {
 }
 .person-info {
   position: relative;
-  min-height: 130px;
+  min-height: 150px;
 }
 .person-info .icon {
   background: url('../image/person_info_icon.png') no-repeat;
@@ -132,7 +132,7 @@ a {
 }
 .work-experience {
   position: relative;
-  min-height: 350px;
+  min-height: 330px;
 }
 .work-experience .icon {
   background: url('../image/work_experience_icon.png') no-repeat;
@@ -192,7 +192,7 @@ a {
   display: block;
 }
 .honor-eva {
-  min-height: 270px;
+  min-height: 300px;
 }
 .honor-eva .honor-reward {
   float: left;
