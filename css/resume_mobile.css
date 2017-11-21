@@ -115,3 +115,11 @@ ul {
 .self-evaluation {
   margin: 1em 0 3em 0;
 }
+
+/* 图片大小设计*/
+.honor-eva .honor-reward .detail-list img{
+    position: relative;
+    left: 27px;
+    width: 100px;
+    height: 100px;
+}
