@@ -111,6 +111,8 @@ ul {
 }
 .honor-reward {
   margin-top: 1em;
+
+  display: none;
 }
 .self-evaluation {
   margin: 1em 0 3em 0;
