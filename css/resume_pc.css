@@ -192,7 +192,7 @@ a {
   display: block;
 }
 .honor-eva {
-  min-height: 220px;
+  min-height: 180px;
 }
 .honor-eva .honor-reward {
   float: left;
@@ -203,7 +203,7 @@ a {
   background: url('../image/honor_reward_icon.png') no-repeat;
 }
 .honor-eva .honor-reward .short-line {
-  width: 200px;
+  width: 400px;
 }
 .honor-eva .honor-reward .detail-list {
   right: 0;
@@ -215,6 +215,9 @@ a {
     height: 140px;
 }
 .honor-eva .self-evaluation {
+  position: absolute;
+  top: 70px;
+  left: 130px;
   float: right;
   width: 460px;
   position: relative;
@@ -228,4 +231,6 @@ a {
 .honor-eva ul {
   padding: 0;
   margin: 0;
+
+  width: 450px;
 }

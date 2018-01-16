@@ -17,12 +17,18 @@ ul {
   padding: 0 0 0 2em;
   margin: 0;
 }
+
+#wrapper {
+	margin: 5px;
+	padding: 10px;
+	box-shadow: 1px 1px 5px #e2e2e2;
+}
+
 #top {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background: #323639;
   height: 2.5em;
 
-    display: none;
 }
 #top a {
   color: #FFF;
@@ -121,6 +127,7 @@ ul {
 }
 .self-evaluation {
   margin: 1em 0 3em 0;
+  margin: 20px;
 }
 
 /* 图片大小设计*/
