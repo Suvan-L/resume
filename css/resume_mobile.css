@@ -1,8 +1,9 @@
 html {
     margin:5px;
 }
+
 body {
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-family: Arial, 'Microsoft YaHei', serif;
   word-break: break-all;
   background: #FFF;
@@ -17,18 +18,37 @@ ul {
   margin: 0;
 }
 
+/*容器*/
 #wrapper {
 	margin: 5px;
 	padding: 10px;
 	box-shadow: 1px 1px 5px #e2e2e2;
 }
 
+#wrapper a {
+  color: #42A5F5;
+  text-decoration: none;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  display: block;
+  color: #943634;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+/*
+ * ***********************************************
+ * 顶部下载按钮
+ * ***********************************************
+ */
 #top {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   background: #323639;
   height: 2.5em;
-
 }
+
 #top a {
   color: #FFF;
   text-decoration: none;
@@ -43,10 +63,12 @@ ul {
 #top .top-title {
   display: none;
 }
-#wrapper a {
-  color: #42A5F5;
-  text-decoration: none;
-}
+
+/*
+ * ***********************************************
+ * 个人信息
+ * ***********************************************
+ */
 .header {
   margin-top: 0.5em;
 }
@@ -56,18 +78,17 @@ ul {
 .header .header-list {
   margin-top: 0.8em;
 }
-.subtitle {
-  font-size: 1.2rem;
-  display: block;
-  color: #943634;
-  font-weight: 600;
-  margin-bottom: 0.5em;
-}
+
+/*
+ * ***********************************************
+ * 简历信息
+ * ***********************************************
+ */
 .person-info {
   margin-top: 1em;
 }
 .person-info .detail-list {
-  padding-left: 1.5em;
+  padding-left: 1em;
 }
 .person-info .detail-list span {
   display: block;
@@ -75,6 +96,12 @@ ul {
 .pro-skill {
   margin-top: 1em;
 }
+
+/*
+ * ***********************************************
+ * 工作经历
+ * ***********************************************
+ */
 .work-experience {
   margin-top: 1em;
 }
@@ -115,24 +142,44 @@ ul {
 .open-source {
   margin-top: 1em;
 }
+
+
+/*
+ * ***********************************************
+ * 开源作品
+ * ***********************************************
+ */
 .open-source .source-name {
   font-size: 1.1rem;
   font-weight: 600;
 }
 .honor-reward {
   margin-top: 1em;
-
-  display: none;
 }
 .self-evaluation {
   margin: 1em 0 3em 0;
-  margin: 20px;
 }
 
+/*
+ * ***********************************************
+ * 荣誉证书与自我评价
+ * ***********************************************
+ */
 /* 图片大小设计*/
 .honor-eva .honor-reward .detail-list img{
     position: relative;
     left: 27px;
     width: 100px;
     height: 100px;
+}
+
+
+/*
+ * ***********************************************
+ * 底部文字
+ * ***********************************************
+ */
+.bottom-text span {
+  position: relative;
+  margin: auto;
 }

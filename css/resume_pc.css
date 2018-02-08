@@ -2,24 +2,35 @@ body {
   font-size: 16px;
   font-family: 'Times New Roman', 'Microsoft YaHei', serif;
   word-break: break-all;
-  background: #525659;
+  /*background: #525659;*/
+   background:url(../image/mobile_background.jpg);
 }
-.clear-fix {
-  clear: both;
-}
+
 a {
   color: #000;
   font-size: 17px;
 }
+
+
+/*清除浮动*/
+.clear-fix {
+  clear: both;
+}
+
+/*图标下长线*/
 .long-line {
   position: absolute;
   display: block;
+
   width: 690px;
   height: 2px;
   top: 32px;
   left: 58px;
+
   background: #943634;
 }
+
+/*图标*/
 .icon {
   width: 35px;
   height: 35px;
@@ -27,6 +38,8 @@ a {
   position: absolute;
   left: 22px;
 }
+
+/*图标后标题*/
 .subtitle {
   position: absolute;
   left: 62px;
@@ -35,6 +48,8 @@ a {
   font-weight: 600;
   top: 2px;
 }
+
+/*详情列表*/
 .detail-list {
   position: absolute;
   top: 44px;
@@ -42,6 +57,12 @@ a {
   right: 49px;
   line-height: 1.6;
 }
+
+/*
+ * ***********************************************
+ * 顶部下载按钮
+ * ***********************************************
+ */
 #top {
   position: fixed;
   background: #323639;
@@ -55,6 +76,7 @@ a {
   color: #F1F1F1;
   z-index: 99;
 }
+
 #top .top-title {
   line-height: 50px;
   display: block;
@@ -72,12 +94,28 @@ a {
   border-radius: 5px;
   font-size: 14px;
 }
+
+/*
+ * ***********************************************
+ * 容器层
+ * ***********************************************
+ */
+
+/*容器*/
 #wrapper {
   width: 800px;
   min-height: 500px;
   background: #FFF;
   margin: 70px auto;
+
+  box-shadow: 1px 1px 5px #e2e2e2;
 }
+
+/*
+ * ***********************************************
+ * 个人信息
+ * ***********************************************
+ */
 .header {
   width: 690px;
   margin-left: 50px;
@@ -103,6 +141,12 @@ a {
 .header .header-list ul {
   line-height: 1.7;
 }
+
+/*
+ * ***********************************************
+ * 简历信息
+ * ***********************************************
+ */
 .person-info {
   position: relative;
   min-height: 130px;
@@ -121,7 +165,7 @@ a {
 }
 .pro-skill {
   position: relative;
-  min-height: 230px;
+  min-height: 310px;
 }
 .pro-skill .icon {
   background: url('../image/pro_skill_icon.png') no-repeat;
@@ -130,6 +174,12 @@ a {
   padding: 0;
   margin: 0;
 }
+
+/*
+ * ***********************************************
+ * 工作经历
+ * ***********************************************
+ */
 .work-experience {
   position: relative;
   min-height: 270px;
@@ -173,9 +223,21 @@ a {
 .work-experience .detail-list .company:first-child {
   margin-top: 0;
 }
+
+/*
+ * ***********************************************
+ * 开源作品
+ * ***********************************************
+ */
 .open-source {
   position: relative;
-  min-height: 175px;
+  min-height: 250px;
+}
+.open-source h2 {
+  display: inline;
+}
+.open-source h4 {
+  display: inline;
 }
 .open-source .icon {
   background: url('../image/open_source_icon.png') no-repeat;
@@ -199,11 +261,17 @@ a {
   width: 350px;
   position: relative;
 }
+
+/*
+ * ***********************************************
+ * 荣誉证书
+ * ***********************************************
+ */
 .honor-eva .honor-reward .icon {
   background: url('../image/honor_reward_icon.png') no-repeat;
 }
 .honor-eva .honor-reward .short-line {
-  width: 400px;
+  width: 290px;
 }
 .honor-eva .honor-reward .detail-list {
   right: 0;
@@ -214,23 +282,37 @@ a {
     width: 140px;
     height: 140px;
 }
+
+/*
+ * ***********************************************
+ * 自我评价
+ * ***********************************************
+ */
 .honor-eva .self-evaluation {
-  position: absolute;
-  top: 70px;
-  left: 130px;
-  float: right;
-  width: 460px;
   position: relative;
+  float: right;
+  width: 380px;
 }
 .honor-eva .self-evaluation .icon {
   background: url('../image/self_evaluation_icon.png') no-repeat;
 }
 .honor-eva .self-evaluation .short-line {
-  width: 350px;
+  width: 250px;
 }
 .honor-eva ul {
   padding: 0;
   margin: 0;
+}
 
-  width: 450px;
+/*
+ * ***********************************************
+ * 底部文字
+ * ***********************************************
+ */
+.bottom-text {
+   min-height: 50px;
+}
+.bottom-text span {
+  position: relative;
+  margin: auto;
 }
