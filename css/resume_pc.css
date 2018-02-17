@@ -149,7 +149,7 @@ a {
  */
 .person-info {
   position: relative;
-  min-height: 130px;
+  min-height: 140px;
 }
 .person-info .icon {
   background: url('../image/person_info_icon.png') no-repeat;
@@ -163,9 +163,15 @@ a {
 .person-info .detail-list span {
   display: block;
 }
+
+/*
+ * ***********************************************
+ * 知识与技能
+ * ***********************************************
+ */
 .pro-skill {
   position: relative;
-  min-height: 310px;
+  min-height: 270px;
 }
 .pro-skill .icon {
   background: url('../image/pro_skill_icon.png') no-repeat;
@@ -182,7 +188,7 @@ a {
  */
 .work-experience {
   position: relative;
-  min-height: 270px;
+  min-height: 250px;
 }
 .work-experience .icon {
   background: url('../image/work_experience_icon.png') no-repeat;
@@ -231,7 +237,7 @@ a {
  */
 .open-source {
   position: relative;
-  min-height: 250px;
+  min-height: 260px;
 }
 .open-source h2 {
   display: inline;
