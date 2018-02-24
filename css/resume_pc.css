@@ -259,25 +259,26 @@ a {
 .open-source .detail-list .source-url {
   display: block;
 }
-.honor-eva {
-  min-height: 180px;
-}
-.honor-eva .honor-reward {
-  float: left;
-  width: 350px;
-  position: relative;
-}
+
 
 /*
  * ***********************************************
  * 荣誉证书
  * ***********************************************
  */
+.honor-eva {
+  min-height: 180px;
+}
+.honor-eva .honor-reward {
+  float: left;
+  width: 380px;
+  position: relative;
+}
 .honor-eva .honor-reward .icon {
   background: url('../image/honor_reward_icon.png') no-repeat;
 }
 .honor-eva .honor-reward .short-line {
-  width: 290px;
+  width: 310px;
 }
 .honor-eva .honor-reward .detail-list {
   right: 0;
