@@ -149,7 +149,7 @@ a {
  */
 .person-info {
   position: relative;
-  min-height: 140px;
+  min-height: 135px;
 }
 .person-info .icon {
   background: url('../image/person_info_icon.png') no-repeat;
@@ -171,7 +171,7 @@ a {
  */
 .pro-skill {
   position: relative;
-  min-height: 270px;
+  min-height: 290px;
 }
 .pro-skill .icon {
   background: url('../image/pro_skill_icon.png') no-repeat;
@@ -188,7 +188,7 @@ a {
  */
 .work-experience {
   position: relative;
-  min-height: 250px;
+  min-height: 220px;
 }
 .work-experience .icon {
   background: url('../image/work_experience_icon.png') no-repeat;
@@ -199,7 +199,10 @@ a {
 .work-experience .detail-list .company h2 {
   font-family: 'Times New Roman', SongTi, serif;
   font-size: 20px;
-  margin: 0;
+  margin: 10px;
+}
+.work-experience .detail-list .company .work-position{
+  float: right;
 }
 .work-experience .detail-list .company .tools {
   display: block;
@@ -237,7 +240,7 @@ a {
  */
 .open-source {
   position: relative;
-  min-height: 260px;
+  min-height: 250px;
 }
 .open-source h2 {
   display: inline;

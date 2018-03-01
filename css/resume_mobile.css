@@ -20,9 +20,10 @@ ul {
 
 /*容器*/
 #wrapper {
+	border-top: 1px dotted #e2e2e2;
 	margin: 5px;
 	padding: 10px;
-	box-shadow: 1px 1px 5px #e2e2e2;
+	box-shadow: 3px 10px 15px #e2e2e2;
 }
 
 #wrapper a {
@@ -31,7 +32,7 @@ ul {
 }
 
 .subtitle {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   display: block;
   color: #943634;
   font-weight: 600;
@@ -47,6 +48,8 @@ ul {
   font-size: 0.8rem;
   background: #323639;
   height: 2.5em;
+
+   display: none;
 }
 
 #top a {
@@ -109,7 +112,7 @@ ul {
   margin-top: 1em;
 }
 .work-experience .company h2 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0;
   margin: 0;
 }
@@ -119,7 +122,7 @@ ul {
   text-indent: 0;
 }
 .work-experience .company .project-title {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   display: block;
   padding-left: 0.5em;
   background: url("../image/li_icon.png") no-repeat;
