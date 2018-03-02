@@ -190,7 +190,7 @@ a {
  */
 .work-experience {
   position: relative;
-  min-height: 245px;
+  min-height: 225px;
 }
 .work-experience .icon {
   background: url('../image/work_experience_icon.png') no-repeat;
@@ -201,7 +201,11 @@ a {
 .work-experience .detail-list .company h2 {
   font-family: 'Times New Roman', SongTi, serif;
   font-size: 20px;
-  margin: 10px;
+  margin: 0;
+}
+.work-experience .detail-list .company ul{
+  margin: 0;
+  padding: 5px;
 }
 .work-experience .detail-list .company .work-position{
   float: right;
@@ -212,9 +216,8 @@ a {
 }
 .work-experience .detail-list .company .project-title {
   font-weight: bold;
-  padding-left: 24px;
+  padding-left: 0;
   font-size: 17px;
-  background: url("../image/li_icon.png") no-repeat;
   -ms-background-position-y: 8px;
   background-position-y: 8px;
 }
@@ -248,7 +251,9 @@ a {
   display: inline;
 }
 .open-source h4 {
-  display: inline;
+  display: block;
+  margin: 0;
+  padding-bottom: 5px;
 }
 .open-source .icon {
   background: url('../image/open_source_icon.png') no-repeat;
@@ -257,13 +262,16 @@ a {
   padding: 0;
   margin: 0;
 }
+
+.open-source .detail-list ul{
+  padding: 0;
+  margin: 0;
+}
 .open-source .detail-list .source-name {
   font-weight: bold;
   font-size: 19px;
 }
-.open-source .detail-list .source-url {
-  display: block;
-}
+
 
 
 /*
