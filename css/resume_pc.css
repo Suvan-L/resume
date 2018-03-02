@@ -7,8 +7,10 @@ body {
 }
 
 a {
-  color: #000;
+  color: #000099;
   font-size: 17px;
+
+  text-decoration: none;
 }
 
 
@@ -149,7 +151,7 @@ a {
  */
 .person-info {
   position: relative;
-  min-height: 135px;
+  min-height: 185px;
 }
 .person-info .icon {
   background: url('../image/person_info_icon.png') no-repeat;
@@ -188,7 +190,7 @@ a {
  */
 .work-experience {
   position: relative;
-  min-height: 220px;
+  min-height: 245px;
 }
 .work-experience .icon {
   background: url('../image/work_experience_icon.png') no-repeat;
