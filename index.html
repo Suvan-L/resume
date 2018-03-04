@@ -7,6 +7,17 @@
     <title>刘淑玮的简历</title>
     <link rel="stylesheet" href="css/resume_pc.css" media="screen and (min-width: 840px)" />
     <link rel="stylesheet" href="css/resume_mobile.css" media="screen and (max-width: 839px)"  />
+
+    <script type="text/javascript">
+    var windowWidth =  document.body.clientWidth;
+    var templateWidth = 320;
+
+    if(windowWidth < 840) {
+        var calcFontSize = (windowWidth) / templateWidth * 14 + "px";
+
+        document.getElementsByTagName("html")[0].style.fontSize = calcFontSize;
+    }
+	</script>
 </head>
 <body>
 
@@ -143,16 +154,5 @@
      	</span>
     </div>
 </div>
-
-<script type="text/javascript">
-    var windowWidth =  document.body.clientWidth;
-    var templateWidth = 320;
-
-    if(windowWidth < 840) {
-        var calcFontSize = (windowWidth) / templateWidth * 14 + "px";
-
-        document.getElementsByTagName("html")[0].style.fontSize = calcFontSize;
-    }
-</script>
 </body>
 </html>
