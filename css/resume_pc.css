@@ -60,6 +60,7 @@ a {
   line-height: 1.6;
 }
 
+
 /*
  * ***********************************************
  * 顶部下载按钮
@@ -97,6 +98,7 @@ a {
   font-size: 14px;
 }
 
+
 /*
  * ***********************************************
  * 容器层
@@ -113,9 +115,10 @@ a {
   box-shadow: 1px 1px 5px #e2e2e2;
 }
 
+
 /*
  * ***********************************************
- * 个人信息
+ * 顶部信息
  * ***********************************************
  */
 .header {
@@ -144,9 +147,25 @@ a {
   line-height: 1.7;
 }
 
+
 /*
  * ***********************************************
- * 简历信息
+ * 求职意向
+ * ***********************************************
+ */
+.job-intention {
+  position: relative;
+  min-height: 105px;
+}
+.job-intention .icon{
+  background: url('../image/self_evaluation_icon.png') no-repeat;
+}
+
+
+
+/*
+ * ***********************************************
+ * 个人信息
  * ***********************************************
  */
 .person-info {
@@ -166,6 +185,7 @@ a {
   display: block;
 }
 
+
 /*
  * ***********************************************
  * 知识与技能
@@ -173,7 +193,7 @@ a {
  */
 .pro-skill {
   position: relative;
-  min-height: 290px;
+  min-height: 260px;
 }
 .pro-skill .icon {
   background: url('../image/pro_skill_icon.png') no-repeat;
@@ -182,6 +202,7 @@ a {
   padding: 0;
   margin: 0;
 }
+
 
 /*
  * ***********************************************
@@ -238,6 +259,7 @@ a {
   margin-top: 0;
 }
 
+
 /*
  * ***********************************************
  * 开源作品
@@ -245,7 +267,7 @@ a {
  */
 .open-source {
   position: relative;
-  min-height: 275px;
+  min-height: 255px;
 }
 .open-source h2 {
   display: inline;
@@ -253,7 +275,7 @@ a {
 .open-source h4 {
   display: block;
   margin: 0;
-  padding-bottom: 5px;
+  /*padding-bottom: 5px;*/
 }
 .open-source .icon {
   background: url('../image/open_source_icon.png') no-repeat;
@@ -268,10 +290,8 @@ a {
   margin: 0;
 }
 .open-source .detail-list .source-name {
-  font-weight: bold;
-  font-size: 19px;
-}
 
+}
 
 
 /*
@@ -303,6 +323,7 @@ a {
     height: 140px;
 }
 
+
 /*
  * ***********************************************
  * 自我评价
@@ -323,6 +344,7 @@ a {
   padding: 0;
   margin: 0;
 }
+
 
 /*
  * ***********************************************
