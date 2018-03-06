@@ -133,6 +133,7 @@ a {
 }
 .header .header-title {
   padding-top: 20px;
+  text-align: center;
 }
 .header .header-title .author-name {
   font-size: 28px;
