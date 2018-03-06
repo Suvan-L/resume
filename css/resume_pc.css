@@ -116,7 +116,7 @@ a {
   width: 800px;
   min-height: 500px;
   background: #FFF;
-  margin: 80px auto;
+  margin: 70px auto;
 
   box-shadow: 1px 1px 5px #e2e2e2;
 }
@@ -332,6 +332,9 @@ a {
 }
 .honor-eva .honor-reward .detail-list {
   right: 0;
+}
+.honor-eva .honor-reward .detail-list > b {
+  display: inline-block;
 }
 .honor-eva .honor-reward .detail-list img{
     position: relative;

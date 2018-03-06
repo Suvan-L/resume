@@ -72,7 +72,9 @@ ul {
 .header .header-list {
   margin-top: 0.8em;
 }
-
+.header .header-list span {
+  display: block;
+}
 
 /*
  * ***********************************************
@@ -81,6 +83,9 @@ ul {
  */
 .job-intention {
   margin-top: 1em;
+}
+.job-intention .detail-list span {
+  display: block;
 }
 
 /*
@@ -194,6 +199,9 @@ ul {
  * ***********************************************
  */
 .bottom-text span {
-  position: relative;
-  margin: auto;
+  margin: 1em;
+}
+.bottom-text .subtitle > span {
+  margin: 0;
+  display: block;
 }
