@@ -116,7 +116,7 @@ a {
   width: 800px;
   min-height: 500px;
   background: #FFF;
-  margin: 70px auto;
+  margin: 80px auto;
 
   box-shadow: 1px 1px 5px #e2e2e2;
 }
@@ -130,9 +130,11 @@ a {
 .header {
   width: 690px;
   margin-left: 50px;
+  min-height:  135px;
 }
 .header .header-title {
   padding-top: 20px;
+  padding-bottom: 15px;
   text-align: center;
 }
 .header .header-title .author-name {
@@ -144,14 +146,19 @@ a {
 .header .header-list .header-left {
   float: left;
 }
-.header .header-list .header-left ul {
+.header .header-list {
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+}
+.header .header-list span {
+  display: block;
+}
+.header .header-list .header-left {
   padding-left: 10px;
 }
 .header .header-list .header-right {
   float: right;
-}
-.header .header-list ul {
-  line-height: 1.7;
 }
 
 
@@ -162,10 +169,13 @@ a {
  */
 .job-intention {
   position: relative;
-  min-height: 105px;
+  min-height: 100px;
 }
 .job-intention .icon{
   background: url('../image/self_evaluation_icon.png') no-repeat;
+}
+.job-intention span {
+  display: block;
 }
 
 
@@ -177,7 +187,7 @@ a {
  */
 .person-info {
   position: relative;
-  min-height: 185px;
+  min-height: 175px;
 }
 .person-info .icon {
   background: url('../image/person_info_icon.png') no-repeat;
@@ -200,7 +210,7 @@ a {
  */
 .pro-skill {
   position: relative;
-  min-height: 260px;
+  min-height: 250px;
 }
 .pro-skill .icon {
   background: url('../image/pro_skill_icon.png') no-repeat;
@@ -218,7 +228,7 @@ a {
  */
 .work-experience {
   position: relative;
-  min-height: 280px;
+  min-height: 265px;
 }
 .work-experience .icon {
   background: url('../image/work_experience_icon.png') no-repeat;
@@ -274,7 +284,7 @@ a {
  */
 .open-source {
   position: relative;
-  min-height: 255px;
+  min-height: 240px;
 }
 .open-source h2 {
   display: inline;
@@ -307,7 +317,7 @@ a {
  * ***********************************************
  */
 .honor-eva {
-  min-height: 180px;
+  min-height: 160px;
 }
 .honor-eva .honor-reward {
   float: left;
