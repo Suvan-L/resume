@@ -228,7 +228,7 @@ a {
  */
 .work-experience {
   position: relative;
-  min-height: 645px;
+  min-height: 715px;
 }
 .work-experience .icon {
   background: url('../image/work_experience_icon.png') no-repeat;
